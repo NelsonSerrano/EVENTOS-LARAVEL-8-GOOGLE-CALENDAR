@@ -21,7 +21,7 @@ class gCalendarController extends Controller
     function __construct()
     {
         $client = new Google_Client();
-        $client->setAuthConfig('client_secret_21914209338-78d3qmlr5jpl1fh40n0v73gqm3jfptjp.apps.googleusercontent.com.json');
+        $client->setAuthConfig('client_secret.json');
         $client->addScope(Google_Service_Calendar::CALENDAR);
 
         $guzzleClient = new \GuzzleHttp\Client(array('curl' => array(CURLOPT_SSL_VERIFYPEER => false)));
