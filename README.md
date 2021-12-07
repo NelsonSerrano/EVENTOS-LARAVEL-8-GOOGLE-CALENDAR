@@ -28,7 +28,7 @@ composer require google/apiclient:^2.0
 
 composer install 
 
-* Configurar el archivo .env 
+* Configurar el archivo .env.example renombrar a .env y confifurar la base de datos
 
 * DB_CONNECTION=mysql
 * DB_HOST=127.0.0.1
@@ -36,6 +36,8 @@ composer install
 * DB_DATABASE=events
 * DB_USERNAME=root
 * DB_PASSWORD=
+
+* Abrir terminal en el directorio del proyecto. para ejecutar las migraciones a la base de datos anteriormente configurada
 
 php artisan migrate 
 
