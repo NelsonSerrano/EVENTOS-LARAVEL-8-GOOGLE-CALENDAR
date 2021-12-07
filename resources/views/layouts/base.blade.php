@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
             <title>
-                NoteBook App
+          
             </title>
             <link href="{{asset('dist/css/main.css')}}" rel="stylesheet">
                 <link href="{{asset('/dist/css/bootstrap.css')}}" rel="stylesheet">
@@ -17,7 +17,7 @@
                 </button>
                 <div class="collapse navbar-toggleable-xs pull-xs-left" id="navbar-header">
                     <a class="navbar-brand" href="#">
-                        NoteBook App
+                    
                     </a>
                 </div>
                 
