@@ -22,20 +22,20 @@ PHP 7.4
 
 ### Installing
 
-* Instalar Librería Google Client
+* Instalar Librería Google Client, Abrir terminal en el directorio del proyecto.
 
 composer require google/apiclient:^2.0
 
 composer install 
 
-Configurar el archivo .env 
+* Configurar el archivo .env 
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=events
-DB_USERNAME=root
-DB_PASSWORD=
+* DB_CONNECTION=mysql
+* DB_HOST=127.0.0.1
+* DB_PORT=3306
+* DB_DATABASE=events
+* DB_USERNAME=root
+* DB_PASSWORD=
 
 php artisan migrate 
 
@@ -44,6 +44,7 @@ php artisan migrate
 * Revisar el archivo routes/api.php 
 
 * Ver las rutas con el comando
+* Abrir terminal en el directorio del proyecto, ver las rutas del proyecto con sus caracteristicas
 
 php artisan route:list 
 
